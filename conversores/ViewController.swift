@@ -41,7 +41,7 @@ class ViewController: UIViewController {
 			default:
 				lbUnit.text = "Temperatura"
 				btUnit1.setTitle("Celsius", for: .normal)
-				btUnit2.setTitle("Farenheint", for: .normal)
+				btUnit2.setTitle("fahrenheit", for: .normal)
 			}
 		convert(nil)
 		
